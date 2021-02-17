@@ -25,7 +25,7 @@ The `demo.py` file allows the testing of a model with prompts from the data or f
 
 Automatically extract transcripts from YouTube videos from their links using `extractYouTubeTranscripts.py`! There is the option of extracting specified links in a CSV, or extracting all video transcripts from a given channel. See the command line arguments for `extractYouTubeTranscripts.py` for more information on this.
 
-### An example `links.csv`
+### `links_example.csv`
 
 | title                                                      | link        |
 |------------------------------------------------------------|-------------|
@@ -33,7 +33,6 @@ Automatically extract transcripts from YouTube videos from their links using `ex
 | Bob Ross - In the Midst of Winter (Season   31 Episode 12) | qx2IsmrCs3c |
 | Bob Ross - Lake at the Ridge (Season 31   Episode 11)      | 8QWvzEQ69Kw |
 | Bob Ross - Balmy Beach (Season 31 Episode   10)            | kMgd6r6c4vE |
-| Bob Ross - Evergreen Valley (Season 31   Episode 9)        | mEU0stNfkxI |
 
 The links in the CSV may also be raw, copied links e.g. `https://www.youtube.com/watch?v=nJGCVFn57U8`.
 
