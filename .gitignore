@@ -1,0 +1,7 @@
+__pycache__
+transcripts/
+voices/
+models/
+data/
+api_key.txt
+bobRossPreprocessing.py

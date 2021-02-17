@@ -1,0 +1,35 @@
+model:
+    # Hyperparameters
+    lstm_nodes: 384
+    dropout: 0.2
+    recurrent_dropout: 0.2
+    max_length: 100
+
+train:
+    # Paths
+    text_file: data/data.txt
+    Xy_file: data/Xy.npz
+    model_file: models/model.h5
+
+    # Hyperparameters
+    epochs: 50
+    batch_size: 512
+    
+    initial_lr: 0.01
+    minimum_lr: 0.001
+    decay_lr: 0.001
+    
+    validation_split: 0.15
+
+    # Training callbacks
+    epoch_end_callback: True
+    checkpoint_callback: True
+    early_stopping_callback: True
+    early_stopping_patience: 5
+
+    # Specify whether training on GPU(s)
+    GPU: True
+
+demo:
+    # Temperature, or diversity
+    temperature: 0.6
