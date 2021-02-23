@@ -21,6 +21,22 @@ There are multiple convienent features implemented such as:
 
 The `demo.py` file allows the testing of a model with prompts from the data or from user input. Temperature (diversity) may be changed whilst running the demo and the length of generated text may be changed (see command line arguments).
 
+For example, 
+
+
+**Prompt**:
+
+*“welcome back. certainly glad you could join us today, it's a fantastic day here. let's have them run all”*
+
+**Generated**:
+
+
+*“ the colors across the screen that you need to paint along with a little bit of white and the bright-red in the sky and then we can go right in there and go back in here and then a little bit of the liquid white and a little bit of the yellow-ochre and some small amount of the dark-sienna and just t”*
+
+
+*“ the colors across the screen, there we go. now then, we'll take a little bit of the bright-red and let's put some of the same colors and then we'll put a little bit of the bright-red in the sky. there we go. now, little touch of the bristles, we'll go right into the yellow-ochre, and we'll take a l”*
+
+
 ## YouTube Transcript Extraction
 
 Automatically extract transcripts from YouTube videos from their links using `extractYouTubeTranscripts.py`! There is the option of extracting specified links in a CSV, or extracting all video transcripts from a given channel. See the command line arguments for `extractYouTubeTranscripts.py` for more information on this.
@@ -87,7 +103,7 @@ Coming soon!
 
 ## Download cleaned Bob Ross training data
 
-Coming soon!
+<a href="https://www.dropbox.com/s/hlxply2whuza2d2/BobRoss.txt?dl=1">Download here!</a>
 
 ## Current Shortcomings & Future Improvements
  * Upload a pre-trained model file
