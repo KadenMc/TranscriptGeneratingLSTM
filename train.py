@@ -118,7 +118,7 @@ def evaluate_history(history):
     labels = ["loss", "accuracy"]
     for i in range(2):
         plt.figure(i)
-        plt.plot(history.history[labels[i])
+        plt.plot(history.history[labels[i]])
         plt.plot(history.history['val_' + labels[i]])
         plt.ylabel(labels[i])
         plt.xlabel('epoch')

@@ -33,3 +33,6 @@ train:
 demo:
     # Temperature, or diversity
     temperature: 0.6
+    
+    # Demo length in characters
+    length: 300
