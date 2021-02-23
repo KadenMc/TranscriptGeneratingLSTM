@@ -66,7 +66,7 @@ def demo(args):
             if len(text_in) <= max_length:
                 prompt = ' '*(max_length-len(text_in)) + text_in
             else:
-                prompt = sentence[-max_length:]
+                prompt = text_in[-max_length:]
 
         generated = ''
         print('Generating with prompt:\n' + prompt + '\n')

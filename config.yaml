@@ -1,8 +1,8 @@
 model:
     # Hyperparameters
-    lstm_nodes: 384
-    dropout: 0.2
-    recurrent_dropout: 0.2
+    lstm_nodes: 448
+    dropout: 0.15
+    recurrent_dropout: 0
     max_length: 100
 
 train:
@@ -12,7 +12,7 @@ train:
     model_file: models/model.h5
 
     # Hyperparameters
-    epochs: 50
+    epochs: 70
     batch_size: 512
     
     initial_lr: 0.01
@@ -25,14 +25,14 @@ train:
     epoch_end_callback: True
     checkpoint_callback: True
     early_stopping_callback: True
-    early_stopping_patience: 5
+    early_stopping_patience: 3
 
     # Specify whether training on GPU(s)
     GPU: True
 
 demo:
     # Temperature, or diversity
-    temperature: 0.6
+    temperature: 0.5
     
     # Demo length in characters
     length: 300
